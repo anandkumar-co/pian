@@ -1,0 +1,149 @@
+.container {
+  width: 1140px;
+}
+body {
+  color: #666666;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  background: url(../images/banner.png);
+  color: #ffffff;
+  height: 700px;
+}
+#carouselExampleControls {
+  position: relative;
+}
+h1 {
+  font-size: 100px;
+  color: #ffffff;
+  font-weight: bolder;
+  border-spacing: 5px;
+}
+h2 {
+  font-size: 40px;
+  color: #050000;
+  font-weight: bolder;
+}
+nav {
+  background-color: #6414db;
+  color: white;
+  background-position: fixed;
+}
+.nav-link {
+  color: white;
+  margin: auto;
+}
+.nav-link:hover,
+.nav .active {
+  background-color: #ffb607;
+  color: white;
+}
+.second {
+  background: url(../images/about-bg.png);
+}
+.forth {
+  background: url(../images/contact-bg.png);
+  clear: both;
+}
+button {
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+  padding: 5px 30px;
+  margin: auto;
+  box-shadow: none;
+  border: none;
+}
+
+.footer {
+  background-color: #212121;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+.footer-middle {
+  border-right: 2px solid white;
+}
+.image {
+  height: 250px;
+}
+.image button {
+  transform: translate(-50% -50%);
+}
+.footer button {
+  margin: 0;
+}
+.first button {
+  margin-top: -30px;
+  position: relative;
+  z-index: 1;
+}
+.first {
+  background-color: rgba(234, 234, 234, 255);
+}
+.second button {
+  margin: 0;
+}
+.hr {
+  border-bottom: 3px solid #ffc107;
+}
+.section-heading {
+  position: relative;
+  margin-left: 20px;
+}
+.section-heading:before {
+  position: absolute;
+  content: "";
+  left: -20px;
+  top: 0px;
+  width: 15px;
+  height: 100%;
+  background-color: #ffc107;
+}
+
+.custom-form input.form-control[type="text"],
+.custom-form input.form-control[type="email"],
+.custom-form input.form-control[type="number"] {
+  background-color: transparent;
+  border-bottom: #000 solid 1px;
+}
+.footer ul li::marker {
+  color: #ffc107;
+}
+.button-box {
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+  padding: 5px 30px;
+  margin: auto;
+  box-shadow: none;
+  border: 2px solid white;
+}
+.centered-1,
+.centered-2,
+.centered-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-1,
+.image-2,
+.image-3 {
+  position: relative;
+  color: white;
+}
+.link {
+  line-height: 36px;
+  display: flex;
+}
+.about {
+  margin-left: 93px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.distri {
+  color: #f6cd6c;
+}
